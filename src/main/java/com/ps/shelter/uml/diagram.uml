@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="265.0" y="111.0">com.ps.shelter.service.report.ReportPDF</node>
+    <node x="154.0" y="-169.0">com.ps.shelter.service.report.ReportFactory</node>
+    <node x="0.0" y="100.0">com.ps.shelter.service.report.ReportTXT</node>
+    <node x="132.5" y="0.0">com.ps.shelter.service.report.Report</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ps.shelter.service.report.ReportTXT" target="com.ps.shelter.service.report.Report">
+      <point x="0.0" y="-58.5" />
+      <point x="122.5" y="75.0" />
+      <point x="193.75" y="75.0" />
+      <point x="-61.25" y="25.0" />
+    </edge>
+    <edge source="com.ps.shelter.service.report.ReportPDF" target="com.ps.shelter.service.report.Report">
+      <point x="0.0" y="-47.5" />
+      <point x="387.5" y="75.0" />
+      <point x="316.25" y="75.0" />
+      <point x="61.25" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="331.0" y="95.0" />
+  <SelectedNodes>
+    <node>com.ps.shelter.service.report.ReportFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
